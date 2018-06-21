@@ -26,10 +26,8 @@
 	      <ul class="nav navbar-nav">
 	        <li><a href="http://localhost:8080/Chamados/ListarChamados.jsp">Listar Chamado</a></li>
 	        <li><a href="http://localhost:8080/Chamados/NovoChamado.jsp">Novo Chamado</a></li>
-	        <%//if (ca.checkUser(request, response)) {%>
-				<li><a href="http://localhost:8080/Chamados/NovoUser.jsp">Novo User</a></li>
-				<li><a href="http://localhost:8080/Chamados/ListarUsers.jsp">Listar Users</a></li>
-			<%//}%>
+			<li><a href="http://localhost:8080/Chamados/NovoUser.jsp">Novo User</a></li>
+			<li><a href="http://localhost:8080/Chamados/ListarUsers.jsp">Listar Users</a></li>
 			<li><a href="http://localhost:8080/Chamados/Contato.jsp">Contato
 			<span class="sr-only">(current)</span></a></li>
 	      </ul>
